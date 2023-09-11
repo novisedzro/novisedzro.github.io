@@ -1,0 +1,1037 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 375px) {
+    .logo{
+        width: 119px;
+        height: 28px;
+        padding-top: 48px;
+        padding-bottom: 54px;
+        margin: 0 auto;
+    }
+
+    .desktop-header{
+        display: none;
+    }
+
+.mobile-header{
+    display: flex;
+    width: 414px;
+    height: 153px;
+    margin-bottom: 48px;
+}
+.mobile-header img{
+    width: 100%;
+}
+.mobile-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile-header-text h1{
+    width: 80%;
+    color: #28283D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    height: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.mobile-header-text h4{
+   width: 90%;
+   color: #87879D;
+   text-align: center;
+   font-family: Red Hat Display;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+   padding-top: 24px;
+   padding-bottom: 32px;
+   padding-left: 24px;
+}
+.btndownload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btndownload .btntxtdownload{
+border-radius: 29px;
+background: #4D96A9;
+border: none;
+width: 193px;
+height:58px;
+margin-bottom: 16px;
+}
+
+.btntxtdownload .txt-download{
+color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px;
+}
+
+.btntxtdownload .txt-v{
+color: #8FE3F9;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; 
+padding-left: 4px;
+}
+
+.btndownload button{
+border-radius: 29px;
+background: #855FB1;
+border: none;
+width: 139px;
+height: 58px;
+padding: 16px,29px,16px,29px;
+color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px;
+}
+
+.path{
+    padding-top: 64px;
+    display: flex;  
+    justify-content: center;
+    
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    row-gap: 0.5rem;
+
+    }
+section div{
+    width: 150px;
+    height: 150px;
+}
+
+section div img{
+    border-radius: 5px;
+    padding-left: 0px !important;
+    height: 100%;
+    width: 100%
+}
+
+
+.section-text-area h4{
+color: #4D96A9;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px;
+letter-spacing: 4px;
+text-transform: uppercase;
+text-align: center;
+
+
+}
+.section-text-area h2{
+color: #28283D;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px;
+width: 327px;
+height: 72px;
+margin: auto;
+padding-top: 24px;
+
+}
+
+.section-text-area h5{
+    color: #87879D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 32px;
+    width: 327px;
+    margin: auto;
+}
+.path-two{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background: url("image-footer.jpg") rgb(77, 150, 168);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+footer h1{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    width: 327px;
+    height: 72px;
+    margin: auto;
+}
+
+footer h4{
+color: #FAFAFA;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+width: 90%;
+padding: 20px;
+margin: auto;
+
+}
+
+.fbutton{
+border-radius: 29px;
+background: #855FB1;
+width: 193px;
+height: 58px;
+border: none;
+margin-top: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+.footer-txtdownload{
+color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px;
+}
+.txt-v{
+color: #D9B8FF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px;
+padding-left: 4px;
+}
+
+}
+
+/* mobile screen style ends */
+@media screen and (min-width: 768px) {
+ 
+    .logo{
+        width: 119px;
+        height: 28px;
+        padding-top: 48px;
+        padding-bottom: 44px;
+        margin: 0 auto;
+    
+    }
+    .desktop-header{
+        display: none;
+    }
+
+    .mobile-header{ 
+        display: flex;
+        padding-top: 20px;
+        width: 768px;
+        padding-bottom: 160px;
+    }
+    .mobile-header img{
+        width: 100%;
+
+    }
+    .mobile-header-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 120px;
+    
+    }
+    .mobile-header-text h1{
+        width: 339px;
+        color: #28283D;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px; 
+        margin: auto;
+        height: 96px;
+    }
+    .mobile-header-text h4{
+        width: 65%;
+        color: #87879D;
+       text-align: center;
+       font-family: Red Hat Display;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 26px;
+       padding-top: 24px;
+       padding-bottom: 32px;
+       padding-left: 24px;
+    }
+
+    .btndownload{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+     
+    .btntxtdownload .txt-download{
+        color: #FFF;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        }
+        
+        .btntxtdownload .txt-v{
+        color: #8FE3F9;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px; 
+        padding-left: 4px;
+        }
+
+    .btntxtdownload{
+        height: 53px;
+        width: 193px;
+
+    }
+    .btndownload button{
+    height: 58px;
+    margin-bottom: 15px;
+    border-radius: 29px;
+    background: #855FB1;
+    border: none;
+    width: 139px;
+    padding: 16px,29px,16px,29px;
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    
+    }
+
+    .path{
+        display: flex;  
+        justify-content: center;
+        margin-top: 10px;
+     }    
+
+     section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        gap: 0.5rem;
+    
+        }
+    section div{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+    }
+    
+    section div img{
+       /* border-radius: 5px; */
+        padding-left: 0px !important;
+        height: 100%;
+        width: 100%
+    }
+    
+    .section-text-area h4{
+        color: #4D96A9;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        
+        
+        
+        }
+        .section-text-area h2{
+        color: #28283D;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        width: 445px;
+        margin-bottom: 30px;
+        
+        }
+        
+        .section-text-area h5{
+            color: #87879D;
+            text-align: center;
+            font-family: Red Hat Display;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            padding-top: 38.32px;
+            width: 80%;
+            margin: auto;
+        }
+        .path-two{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            opacity: 0.25;
+        }
+        
+        footer{
+            background: url("image-footer.jpg") rgb(77, 150, 168);
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: soft-light;
+            width: auto;
+            height: 100%;
+            overflow: hidden;
+            padding-bottom: 30px;
+            padding-top: 70px;
+        }
+        footer h1{
+            color: #FAFAFA;
+            text-align: center;
+            font-family: Red Hat Display;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 44px;
+            width: 457px;
+            margin-bottom: 32px;
+            
+        }
+        
+    footer h4{
+        color: #FAFAFA;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        width: 80%;
+        margin: auto;
+        }
+        
+    .fbutton{
+        border-radius: 29px;
+        background: #855FB1;
+        width: 193px;
+        height: 58px;
+        border: none;
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        }
+        
+    .footer-txtdownload{
+        color: #FFF;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        }
+    .txt-v{
+        color: #D9B8FF;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        padding-left: 4px;
+        }
+}
+@media screen and (min-width: 992px) {
+    .logo{
+        width: 119px;
+        height: 28px;
+        padding-top: 80px;
+        padding-bottom: 61px;
+        margin: 0 auto;
+    }
+    .mobile-header{
+        display: none;
+    }    
+
+    .mobile-header-text{
+        display: none;
+    }
+    
+   .desktop-header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    }
+
+   .desktop-header-left-image img{
+    width: 350px;
+   }
+
+   .destop-header-text{
+    text-align: center;
+    width: 540px;
+   }
+   
+   .desktop-header-right-image img{
+    width: 350px;
+
+   }
+
+   .destop-header-text h1{
+        color: #28283D;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 64px; 
+        padding: 34px;
+        
+   }
+
+   .destop-header-text h4{
+    color: #87879D;
+    text-align: center;
+    font-family: Red Hat Display;
+   font-size: 18px;
+    font-style: normal;
+   font-weight: 500;
+    line-height: 26px; /* 144.444% */
+    padding-bottom: 32px;
+   }
+   .btndownload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.btntxtdownload{
+    height: 53px;
+    width: 193px;
+
+}
+.btndownload .btntxtdownload{
+    border-radius: 29px;
+    background: #4D96A9;
+    border: none;
+    width: 193px;
+    height:58px;
+    margin-bottom: 16px;
+    }
+    
+    .btntxtdownload .txt-download{
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    }
+    
+    .btntxtdownload .txt-v{
+    color: #8FE3F9;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px; 
+    padding-left: 4px;
+    }
+    
+    .btndownload button{
+    border-radius: 29px;
+    background: #855FB1;
+    border: none;
+    width: 139px;
+    height: 58px;
+    padding: 16px,29px,16px,29px;
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    }
+
+.path{
+    display: flex;  
+    justify-content: center;
+    margin-top: 10px;
+ }   
+ section{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 30px;
+    gap: 2rem;
+
+    }
+section div{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+section div img{
+   /* border-radius: 5px; */
+    padding-left: 0px !important;
+    height: 100%;
+    width: 100%
+}
+
+.section-text-area h4{
+    color: #4D96A9;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+    
+    
+    
+    }
+    .section-text-area h2{
+    color: #28283D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    width: 445px;
+    margin-bottom: 32px;
+
+    
+    }
+    
+    .section-text-area h5{
+        color: #87879D;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        padding-top: 38.32px;
+        width: 540px;
+        margin: auto;
+    }
+    .path-two{
+        display: flex;
+        justify-content: center;
+        margin-top: 72px;
+        opacity: 0.25;
+    } 
+    footer{
+        background: url("image-footer.jpg") rgb(77, 150, 168);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 30px;
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer h1{
+        color: #FAFAFA;
+        text-align: left;
+        font-family: Red Hat Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        width: 457px;
+        padding-left: 140px;
+
+
+        
+    }
+    
+footer h4{
+    color: #FAFAFA;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 350px;
+
+    }
+    
+.fbutton{
+    border-radius: 29px;
+    background: #855FB1;
+    width: 193px;
+    height: 58px;
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    }
+    
+.footer-txtdownload{
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    }
+.txt-v{
+    color: #D9B8FF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    padding-left: 4px;
+    }
+
+ }
+ /*screen of desktop 1200px*/
+@media  screen and (min-width: 1200px) {
+    
+    .logo{
+        width: 119px;
+        height: 28px;
+        padding-top: 80px;
+        padding-bottom: 61px;
+        margin: 0 auto;
+    }
+    .mobile-header{
+        display: none;
+    }    
+    
+    .mobile-header-text{
+        display: none;
+    }
+    
+    .desktop-header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    }
+    
+    .desktop-header-left-image img{
+    width: 350px;
+    }
+    
+    .destop-header-text{
+    text-align: center;
+    width: 540px;
+    }
+    
+    .desktop-header-right-image img{
+    width: 350px;
+    
+    }
+    
+    .destop-header-text h1{
+        color: #28283D;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 64px; 
+        padding: 34px;
+        
+    }
+    
+    .destop-header-text h4{
+    color: #87879D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+    padding-bottom: 32px;
+    }
+    .btndownload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    }
+    
+    .btntxtdownload{
+    height: 53px;
+    width: 193px;
+    
+    }
+    .btndownload .btntxtdownload{
+        border-radius: 29px;
+        background: #4D96A9;
+        border: none;
+        width: 193px;
+        height:58px;
+        margin-bottom: 16px;
+        }
+        
+        .btntxtdownload .txt-download{
+        color: #FFF;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        }
+        .btntxtdownload:hover{
+            background-color: #71c0d4;
+        }
+        
+        .btntxtdownload .txt-v{
+        color: #8FE3F9;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px; 
+        padding-left: 4px;
+        }
+        
+        .btndownload button{
+        border-radius: 29px;
+        background: #855FB1;
+        border: none;
+        width: 139px;
+        height: 58px;
+        padding: 16px,29px,16px,29px;
+        color: #FFF;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        }
+    
+    .path{
+    display: flex;  
+    justify-content: center;
+    margin-top: 10px;
+    }   
+    section{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 30px;
+    gap: 2rem;
+    
+    }
+    section div{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    }
+    
+    section div img{
+    /* border-radius: 5px; */
+    padding-left: 0px !important;
+    height: 100%;
+    width: 100%
+    }
+    
+    .section-text-area h4{
+    color: #4D96A9;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+    
+    
+    
+    }
+    .section-text-area h2{
+    color: #28283D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    width: 445px;
+    margin-bottom: 32px;
+    
+    
+    }
+    
+    .section-text-area h5{
+        color: #87879D;
+        text-align: center;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        padding-top: 38.32px;
+        width: 540px;
+        margin: auto;
+    }
+    .path-two{
+        display: flex;
+        justify-content: center;
+        margin-top: 72px;
+        opacity: 0.25;
+    } 
+    footer{
+        background: url("image-footer.jpg") rgb(77, 150, 168);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: soft-light;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 30px;
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer h1{
+        color: #FAFAFA;
+        text-align: left;
+        font-family: Red Hat Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        width: 457px;
+        padding-left: 140px;
+    
+    
+        
+    }
+    
+    footer h4{
+    color: #FAFAFA;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 350px;
+    
+    }
+    
+    .fbutton{
+    border-radius: 29px;
+    background: #855FB1;
+    width: 193px;
+    height: 58px;
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    }
+    
+    .footer-txtdownload{
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    }
+    .txt-v{
+    color: #D9B8FF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    padding-left: 4px;
+    }
+    
+    
+    }
